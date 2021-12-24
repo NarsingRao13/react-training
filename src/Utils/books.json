@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image_src": "https://images-eu.ssl-images-amazon.com/images/I/81dQwQlmAXL._AC_UL200_SR200,200_.jpg",
+    "title": "Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not! Rich Dad Poor Dad: What the Rich Teach…",
+    "author": "ROBERT T. KIYOSAKI",
+    "price": 500,
+    "job": "asdfsdaf"
+  },
+  {
+    "id": 2,
+    "image_src": "https://images-eu.ssl-images-amazon.com/images/I/51MdAtJFPGL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "title": "Vintage On Earth We're Briefly Gorgeous",
+    "author": "Ocean Vuong",
+    "price": 500,
+    "job": "asdfsdaf"
+  },
+  {
+    "id": 3,
+    "image_src": "https://images-eu.ssl-images-amazon.com/images/I/91KqdzAqaeL._AC_UL160_SR160,160_.jpg",
+    "title": "Normal People",
+    "author": "Sally Rooney",
+    "price": 500,
+    "job": "asdfsdaf"
+  }
+]

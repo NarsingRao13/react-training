@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Advance from "./Advance/Advance";
+import "./App.css";
+import Basics from "./Basics/Basics";
+import ClassComponentExample from "./components/class-components/classcomponentexample";
+import Counter from "./components/class-components/counter";
+import Message from "./components/class-components/message";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Advance />
+      <ClassComponentExample name="Narsing" />
+      <Message />
+      <Counter />
     </div>
   );
 }
 
-export default App;
+/* ReactDome.render(<Welcome5 />, document.getElementById("root"));
+ReactDome.render(<Greeting4 />, document.getElementById('root')); 
+ReactDom.render(<BookList />, document.getElementById("root")); 
+ReactDom.render(<SingleBook />, document.getElementById("root"));*/
