@@ -8,7 +8,7 @@ export default class Counter extends Component {
     };
   }
 
-  ince() {
+  increment() {
     this.setState(
       {
         count: this.state.count + 1,
@@ -17,14 +17,18 @@ export default class Counter extends Component {
         console.info("call back count " + this.state.count);
       }
     );
-    console.info(this.state.count);
+
+    // this.setState((prevState) => {
+    //   count: prevState.count + 1;
+    // });
+    // console.info(this.state.count);
   }
 
   render() {
     return (
       <div>
         <h1>count- {this.state.count}</h1>
-        <button onClick={() => this.ince()}>Ince</button>
+        <button onClick={() => this.increment()}>increment</button>
       </div>
     );
   }
